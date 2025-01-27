@@ -1,91 +1,47 @@
 [
+  
   {
-    "name": "TO do list",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
-    "category": "android",
+    "name": "Sliding Puzzle Game",
+    "desc": "Challenge yourself with our interactive sliding puzzle game! Can you solve the puzzle that 90% of people fail to complete? Play now and enjoy a fun mental game!",
+    "image": "game",
+    "category": "mern",
     "links": {
-      "view": "singhq.site"
-    }
-  },
-  {
-    "name": "Game",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
-    "category": "android",
-    "links": {
-      "view": "singhq.site/chillzone",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
-    }
-  },
-  {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
+      "view": "https://singhq.site/chillZone/"
     }
   },
   {
     "name": "Weatherly Android",
     "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
     "image": "weatherlyandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
-    }
-  },
-  {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
-    "category": "mern",
-    "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
-    }
-  },
-  {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
-    "category": "mern",
-    "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
-    }
-  },
-  {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
-    "category": "mern",
-    "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/jigar-sable/resumegen"
-    }
-  },
-  {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-    "image": "reactprojects",
-    "category": "mern",
-    "links": {
-      "view": "https://reactjsprojects.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/React-Projects"
-    }
-  },
-  {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
     "category": "lamp",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+      "view": "https://weather.singhq.site"  }
+  },
+  {
+    "name": "Sudoko",
+    "desc": "Test your puzzle-solving skills with this challenging and fun Sudoku game for all levels!",
+    "image": "game2",
+    "category": "mern",
+    "links": {
+      "view": "https://singhq.site/sudoko"
+    }
+  },
+  {
+    "name": "Blogger Boys",
+    "desc": "Blogger Boys is a platform where you can explore, share, and connect through blogs on various topics.",
+    "image": "bb",
+    "category": "lamp",
+    "links": {
+      "view": "https://test.singhq.site/"
+    }
+  },
+  {
+    "name": "To do list",
+    "desc": "Manage tasks effortlessly with our To-Do List app. Boost productivity with ease, ideal for personal and professional use.",
+    "image": "todo",
+    "category": "mern",
+    "links": {
+      "view": "https://singhq.site/"
     }
   }
   
