@@ -65,15 +65,25 @@ section{
 .heading span{
   color: rgb(115, 3, 167);
 }
-header .logo{
+header .logo {
+  display: flex;
+  align-items: center;
   font-size: 1.9rem;
   font-weight: 800;
   text-decoration: none;
   color: #0E2431;
 }
+
+header .logo img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
 header .logo i {
   font-size: 2.2rem;
 }
+
 header .logo:hover {
   color: #fc8c05;
 }
