@@ -283,12 +283,13 @@ header .navbar ul li a:hover{
 @media screen and (max-width: 450px) {
   .work .button-group{
     width: 100%;
+    
   }
   .work .box-container{
     margin: 0rem;
   }
   .work .box-container .grid-item .box{
-    width: 95% !important;
+    width: 95% ;
   }
 }
 
