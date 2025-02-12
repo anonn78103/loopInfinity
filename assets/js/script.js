@@ -40,25 +40,35 @@ $(document).ready(function () {
    // start
 
     // <!-- emailjs to mail contact form data -->
-      $("#contact-form").submit(function (event) {
-        event.preventDefault(); // Prevent default form submission
+     let isSubmitting = false;
 
-        // Disable the submit button to prevent multiple clicks
-        const submitButton = $("#contact-form button[type='submit']");
-        submitButton.prop("disabled", true);
+$("#contact-form").submit(function (event) {
+    event.preventDefault();
 
-        emailjs.init('9I3eXL-xJVuTtXufZ');
-        emailjs.sendForm('service_m4apqap', 'template_egv52zm', '#contact-form')
-            .then(function () {
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-                submitButton.prop("disabled", false); // Re-enable the button
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-                submitButton.prop("disabled", false); // Re-enable the button
-            });
-    });
+    if (isSubmitting) return;
+
+    isSubmitting = true;
+    const submitButton = $("#contact-form button[type='submit']");
+    submitButton.prop("disabled", true);
+    submitButton.text("Submitting...");
+
+    emailjs.init('9I3eXL-xJVuTtXufZ');
+    emailjs.sendForm('service_m4apqap', 'template_egv52zm', '#contact-form')
+        .then(function () {
+            document.getElementById("contact-form").reset();
+            alert("Form Submitted Successfully");
+            submitButton.prop("disabled", false);
+            submitButton.text("Submit");
+            isSubmitting = false;
+        }, function (error) {
+            console.log('FAILED...', error);
+            alert("Form Submission Failed! Try Again");
+            submitButton.prop("disabled", false);
+            submitButton.text("Submit");
+            isSubmitting = false;
+        });
+});
+
     // <!-- emailjs to mail contact form data -->
 
 });
