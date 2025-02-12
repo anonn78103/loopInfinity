@@ -37,67 +37,21 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-   //start 
-    const form = $("#contact-form");
-    const submitButton = form.find("button[type='submit']");
-    let isSubmitting = false;
-
-    form.submit(function (event) {
-        event.preventDefault();
-
-        if (isSubmitting) return;
-        isSubmitting = true;
-        submitButton.prop("disabled", true);
-
-        const formData = form.serializeArray();
-        const requestBody = {
-            fields: [
-                { field: "email", value: formData.find(f => f.name === "email")?.value || "" },
-                { field: "firstname", value: formData.find(f => f.name === "name")?.value || "" },
-                { field: "phone", value: formData.find(f => f.name === "phone")?.value || "" },
-                { field: "message", value: formData.find(f => f.name === "message")?.value || "" },
-            ]
-        };
-
-        console.log("📤 Sending data to API:", requestBody); // Debugging Log
-
-        $.ajax({
-            url: "https://v1.nocodeapi.com/anony_draft/nForms/jXFFaVdmEpTSgvks/data",
-            method: "POST",
-            contentType: "application/json",
-            data: JSON.stringify(requestBody),
-            success: function (response) {
-                console.log("✅ API Response:", response);
-                alert("✅ Form submitted successfully!");
-                form[0].reset();
-            },
-            error: function (error) {
-                console.error("❌ API Error:", error);
-                alert("❌ Submission failed. Try again!");
-            },
-            complete: function () {
-                isSubmitting = false;
-                submitButton.prop("disabled", false);
-            }
-        });
-    });
-// endd
+   // start
 
     // <!-- emailjs to mail contact form data -->
-    // $("#contact-form").submit(function (event) {
-    //     emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
-
-    //     emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-    //         .then(function (response) {
-    //             console.log('SUCCESS!', response.status, response.text);
-    //             document.getElementById("contact-form").reset();
-    //             alert("Form Submitted Successfully");
-    //         }, function (error) {
-    //             console.log('FAILED...', error);
-    //             alert("Form Submission Failed! Try Again");
-    //         });
-    //     event.preventDefault();
-    // });
+      $("#contact-form").submit(function (event) {
+        emailjs.init('9I3eXL-xJVuTtXufZ');
+        emailjs.sendForm('service_m4apqap', 'template_egv52zm','#contact-form')
+            .then(function () {                
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Successfully");
+            }, function (error) {
+                console.log('FAILED...', error);
+                alert("Form Submission Failed! Try Again");
+            });
+        event.preventDefault();
+    }); 
     // <!-- emailjs to mail contact form data -->
 
 });
