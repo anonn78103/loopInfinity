@@ -41,17 +41,24 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
       $("#contact-form").submit(function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Disable the submit button to prevent multiple clicks
+        const submitButton = $("#contact-form button[type='submit']");
+        submitButton.prop("disabled", true);
+
         emailjs.init('9I3eXL-xJVuTtXufZ');
-        emailjs.sendForm('service_m4apqap', 'template_egv52zm','#contact-form')
-            .then(function () {                
+        emailjs.sendForm('service_m4apqap', 'template_egv52zm', '#contact-form')
+            .then(function () {
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
+                submitButton.prop("disabled", false); // Re-enable the button
             }, function (error) {
                 console.log('FAILED...', error);
                 alert("Form Submission Failed! Try Again");
+                submitButton.prop("disabled", false); // Re-enable the button
             });
-        event.preventDefault();
-    }); 
+    });
     // <!-- emailjs to mail contact form data -->
 
 });
