@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! 👋 I'm Raj Singh, a passionate Full 
 1. [Project Overview](#project-overview)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
-4. [Live Demo](#live-demo-section)
+4. [Live Demo](#live-demo)
 5. [Contact Information](#contact-information)
 
 ## Project Overview 📝
@@ -42,8 +42,8 @@ This portfolio was built using the following technologies:
 
 ## Live Demo 🌍
 
-You can visit my live portfolio at:
- 
-<a href="https://raj.singhq.site" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease;">Visit Portfolio</a>
+You can visit my live portfolio here:
+
+[![Live Demo Button](https://img.shields.io/badge/Visit%20Portfolio-007bff?style=for-the-badge&logo=github&logoColor=white)](https://raj.singhq.site)
 
  
