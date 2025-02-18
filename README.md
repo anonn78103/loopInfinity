@@ -3,11 +3,11 @@
 Welcome to my personal portfolio website! 👋 I'm Raj Singh, a passionate Full Stack Developer with experience in web development and a strong interest in Coding. This portfolio showcases my skills, projects, and professional journey.
 
 ## Table of Contents 📑
-1. [Project Overview] 
-2. [Tech Stack] 
-3. [Features] 
-4. [Live Demo]([#live-demo](https://raj.singhq.site))
-5. [Contact Information] 
+1. [Project Overview](#project-overview)
+2. [Tech Stack](#tech-stack)
+3. [Features](#features)
+4. [Live Demo](#live-demo-section)
+5. [Contact Information](#contact-information)
 
 ## Project Overview 📝
 
@@ -40,6 +40,10 @@ This portfolio was built using the following technologies:
 - **Portfolio Showcase**: Displaying personal projects and professional experience 💼.
 - **Contact Form**: A contact form that sends messages directly to my email 📧.
 
- 
-- [Raj Singh's Portfolio](https://raj.singhq.site)
+## Live Demo 🌍
 
+You can visit my live portfolio at:
+ 
+<a href="https://raj.singhq.site" target="_blank" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background-color 0.3s ease;">Visit Portfolio</a>
+
+ 
