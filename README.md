@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! 👋 I'm Raj Singh, a passionate Full 
 1. [Project Overview](#project-overview)
 2. [Tech Stack](#tech-stack)
 3. [Features](#features)
-4. [Live Demo](#live-demo)
+4. [Live Demo](https://raj.singhq.site)
 5. [Contact Information](#contact-information)
 
 ## Project Overview 📝
