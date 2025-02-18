@@ -1,13 +1,13 @@
 # Raj Singh - Personal Portfolio 🌐
 
-Welcome to my personal portfolio website! 👋 I'm Raj Singh, a passionate Full Stack Developer with experience in web development and a strong interest in the stock market 📈. This portfolio showcases my skills, projects, and professional journey.
+Welcome to my personal portfolio website! 👋 I'm Raj Singh, a passionate Full Stack Developer with experience in web development and a strong interest in Coding. This portfolio showcases my skills, projects, and professional journey.
 
 ## Table of Contents 📑
-1. [Project Overview](#project-overview)
-2. [Tech Stack](#tech-stack)
-3. [Features](#features)
-4. [Live Demo](#live-demo)
-5. [Contact Information](#contact-information)
+1. [Project Overview] 
+2. [Tech Stack] 
+3. [Features] 
+4. [Live Demo]([#live-demo](https://raj.singhq.site))
+5. [Contact Information] 
 
 ## Project Overview 📝
 
@@ -43,5 +43,5 @@ This portfolio was built using the following technologies:
 ## Live Demo 🌍
 
 You can visit my live portfolio at:
-- [Raj Singh's Portfolio](https://sinqhq.site)
+- [Raj Singh's Portfolio](https://raj.singhq.site)
 
